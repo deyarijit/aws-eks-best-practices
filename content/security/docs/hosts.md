@@ -1,5 +1,5 @@
 # Protecting the infrastructure (hosts)
-Inasmuch as it's important to secure your container images, it's equally important to safeguard the infrastructure that runs them. This section explores different ways to mitigate risks from attacks launched directly against the host.  These guidelines should be used in conjunction with those outlined in the [Runtime Security](runtime.md) section.
+In as much as it's important to secure your container images, it's equally important to safeguard the infrastructure that runs them. This section explores different ways to mitigate risks from attacks launched directly against the host.  These guidelines should be used in conjunction with those outlined in the [Runtime Security](runtime.md) section.
 
 ## Recommendations
 
