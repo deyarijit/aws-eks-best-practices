@@ -6,7 +6,7 @@ Unlike SELinux, seccomp was not designed to isolate containers from each other, 
 !!! caution
     seccomp profiles are a Kubelet alpha feature.  You'll need to add the `--seccomp-profile-root` flag to the Kubelet arguments to make use of this feature. 
 
-AppArmor is similar to seccomp, only it restricts an container's capabilities including accessing parts of the file system. It can be run in either enforcement or complain mode. Since building Apparmor profiles can be challenging, it is recommended you use a tool like [bane](https://github.com/genuinetools/bane) instead. 
+AppArmor is similar to seccomp, only it restricts a container's capabilities including accessing parts of the file system. It can be run in either enforcement or complain mode. Since building Apparmor profiles can be challenging, it is recommended you use a tool like [bane](https://github.com/genuinetools/bane) instead. 
 
 !!! attention
     Apparmor is only available Ubuntu/Debian distributions of Linux. 
